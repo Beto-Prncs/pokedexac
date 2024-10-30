@@ -1,0 +1,33 @@
+.pokedex-view{
+    height: 90vh;
+    width: 365px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-color:red;
+    padding:20px;
+    overflow:hidden;
+    border-radius: 15px;
+    gap:20px;
+}
+.container{
+    position:relative;
+    width:90%;
+    height:100%;
+    display:flex;
+    flex-direction:column;    
+    align-items:center;
+    justify-content:center;
+    background-color:white;
+}
+.pokemon{
+    border-top-left-radius: 50px;
+}
+.grafico{
+    border-bottom-right-radius:50px;
+}
+.button{
+
+
+}

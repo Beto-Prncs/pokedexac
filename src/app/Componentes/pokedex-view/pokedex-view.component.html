@@ -1,0 +1,22 @@
+<section class="pokedex-view">
+   <app-pokemon-search (searchPokemon)="handleSearch($event)">buscar</app-pokemon-search>
+    <div class="container pokemon">
+       <div class ="pokemon"></div> 
+       <app-pokemon 
+     [solicitarImagen]="pokemonImagen" 
+     (clickPokemon)="handlePokemon($event)">
+   </app-pokemon>
+   <button (click)="favorites.toggleFavorite(pokemonId)">Agregar a Favoritos</button>
+
+<app-favorites #favorites></app-favorites>
+      <div>
+   
+ </div>
+    </div>
+    <div class="container grafico">
+       <app-grafico></app-grafico>
+       <app-pokemon-details [pokemonId]="pokemonId"></app-pokemon-details>
+    </div>
+    
+</section>
+

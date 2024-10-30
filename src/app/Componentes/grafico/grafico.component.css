@@ -1,0 +1,28 @@
+/* pokemon.component.css */
+.pokemon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    width: 200px; /* Ajusta según tus necesidades */
+    height: auto;
+  }
+  
+  .button-container {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #f0c040;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e0b030;
+  }

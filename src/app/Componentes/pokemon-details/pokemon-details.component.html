@@ -1,0 +1,7 @@
+<!-- pokemon-details.component.html -->
+<div *ngIf="pokemonDetails">
+    <h2>{{ pokemonDetails.name | titlecase }}</h2>
+    <p *ngIf="pokemonDetails.types.length > 0">Tipo: {{ pokemonDetails.types[0].type.name }}</p>
+    <p>Altura: {{ pokemonDetails.height }}</p>
+    <p>Peso: {{ pokemonDetails.weight }}</p>
+  </div>
